@@ -13,6 +13,7 @@ import android.os.Handler;
 import android.os.Message;
 
 import android.view.View;
+import android.view.View.OnClickListener;
 
 import android.widget.Button;
 
@@ -159,4 +160,13 @@ public class MainActivity extends Activity {
 		}).start();
 
 	}
+
+	OnClickListener clickListener = new OnClickListener() {
+
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+
+		}
+	};
 }
